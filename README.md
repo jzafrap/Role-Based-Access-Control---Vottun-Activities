@@ -1,6 +1,10 @@
 In this repository, we take the sample DAO smart contract, and add Role Based Access Control, based in open Zeppelin smart contracts.
 So executeProposal method of DAO smart contract only can be called by an EXECUTOR_ROLE address.
 
+This sample DAO smart contract has been created and deployed in Polygon Amoy testnet using [Vottun Web APIs](https://app.vottun.io/smart-contracts/12260),
+- deployed address: 0x1cf0E1ad60355A5af6D3603DCf6adEDe69b06f18
+- deployed txn: [0x1cfa188c168edc5ebd6138d83530e015666222bd132c86cf561b20eb1da6bf6f](https://www.oklink.com/amoy/tx/0x1cfa188c168edc5ebd6138d83530e015666222bd132c86cf561b20eb1da6bf6f)
+
 # How To - Role Based Access Control
 
 ## Adding Role Based Access Control to an existing smart contract
